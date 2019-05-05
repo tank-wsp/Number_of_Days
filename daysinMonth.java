@@ -11,7 +11,7 @@ public class daysinMonth {
 		int month=input.nextInt();
 		int year=input.nextInt();
 		boolean isLeapYear= (year % 4 ==0 && year % 100 !=0) ||(year % 400 ==0);
-		boolean hasThirtyOne=(month== 01 || month==03 || month== 05 || month ==07 || month== 10 || month ==12);
+		boolean hasThirtyOne=(month== 01 || month==03 || month== 05 || month ==07 || month== 8 || month== 10 || month ==12);
 		boolean isFebuary = (month==02);
 		
 		
