@@ -11,17 +11,24 @@ public class daysinMonth {
 		int month=input.nextInt();
 		int year=input.nextInt();
 		boolean isLeapYear= (year % 4 ==0 && year % 100 !=0) ||(year % 400 ==0);
-		
-		if (isLeapYear= true) {
+		boolean hasThirtyOne=(month== 01 || month==03 || month== 05 || month ==07 || month== 10 || month ==12);
+		if (isLeapYear) {
 			System.out.println("Year"+ " "+year+" "+"has 366 days.");
 		}
 		
 		else 
 			System.out.println("Year"+ " "+year+" "+"has 365 days.");
 		
+	
 		
-		}
-
+       
+	    if (hasThirtyOne) {
+	    	System.out.println("Your month has 31 days");
+	    }
+	    
+	    else
+	       System.out.println("Your month has 30 days");
+	    }
 
 	}
 
