@@ -1,2 +1,2 @@
 # Number_of_Days
-A simple program that calculates the number of days with the user's provided month and year.
+A simple program that calculates the number of days in the user's provided month and year.
